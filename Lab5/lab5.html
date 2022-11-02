@@ -1,0 +1,63 @@
+<!-- HTML Lab Assignment 5 -->
+<!-- Deadline: 2022-11-09 23:59 -->
+
+<!-- [10%] 1. A Table (3x3 cells) with two different background colors for <th> and <td> -->
+<!-- [20%] 2. Two buttons to control the width of the table (200px, 500 px) -->
+<!-- [20%] 3. Three buttons to control the border with and cell spacing of the table -->
+<!-- [20%] 4. Four buttons to control the background color of the table (will not affect the color of table headings)-->
+<!-- [20%] 5. A reset button to reset the style to the original.-->
+<!-- [10%] 6. Separate the JavaScript code from the html file and upload both files to github. (javascript in an external file) -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+</head>
+
+<body>
+<table id="table">
+  <thead>
+  <tr>
+    <th>The table header</th>
+    <th>The table header</th>
+    <th>The table header</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td >The table body</td>
+    <td>The table body</td>
+    <td>The table body</td>
+  </tr>
+  <tr>
+    <td>The table body</td>
+    <td>The table body</td>
+    <td>The table body</td>
+  </tr>
+  </tbody>
+</table>
+<br>
+<h3>Change The Table Width</h3>
+<button onclick="btn1Pressed()">200px</button>
+<button onclick="btn2Pressed()">500px</button>
+</body>
+
+<h3>Change The Table Background Color</h3>
+<button onclick="btn7Pressed()" >1px</button>
+<button onclick="btn8Pressed()" >10px</button>
+<button onclick="btn9Pressed()" >20px</button>
+
+
+<h3>Change The Table Background Color</h3>
+<button onclick="btn3Pressed()" style="background-color: Blue; width: 80px; height: 40px"></button>
+<button onclick="btn4Pressed()" style="background-color: lightcyan; width: 80px; height: 40px"></button>
+<button onclick="btn5Pressed()" style="background-color: Brown; width: 80px; height: 40px"></button>
+<button onclick="btn6Pressed()" style="background-color: Purple; width: 80px; height: 40px"></button>
+<br><br>
+<button onclick="reset()">
+  Reset
+</button>
+</body>
+</html>
