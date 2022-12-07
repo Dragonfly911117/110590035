@@ -1,0 +1,16 @@
+ 2.8 Tetris Blocks (20%)
+     a. 5 general Tetris blocks as shown above. 10%
+     b. Extra blocks for “CSIE” (I is already includes in general blocks). 10%
+ 3. Animation (20%)
+     a. Randomly select one of the 8 blocks and appear from the top of the game area. 5%
+     b. Automatically Move 1 unit down each second (let it Disappear when it exceeds the bottom) 5%
+     c. The next block will appear from the top when the current one move 5 units down 5%
+     d. The first four blocks are: C. S. I. E and the rest is random 5%
+ 4. Interactive Control with the buttons: (40%)
+     a. Start/Reset: Start the animation and clear the canvas and score 5%
+     TODO b. Left: move to the left 5%
+     TODO c. Right: move to the right. 5%
+     TODO d. Rotate: rotate the blocks clockwise. 10%
+     TODO e. You can use mouse to select which block you would like to control 10%
+        • The block is selected if the mouse click inside the block’s bounding box.
+     TODO f. The selected block should be highlighted with a red bold contour 5%
