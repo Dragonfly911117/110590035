@@ -40,7 +40,7 @@ function btn6Pressed() {
 
 function btn7Pressed() {
     document.getElementById("table").style.border="1px solid gray";
-    document.getElementById("table").style.borderSpacing = "1px";
+    document.getTitleElementById("table").style.borderSpacing = "1px";
 }
 
 function btn8Pressed() {
